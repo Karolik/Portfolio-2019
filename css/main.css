@@ -17,7 +17,7 @@ body {
   color: #fff;
   background: #718387;
   /*#27839C #17537d*/
-  background: linear-gradient(-90deg,#718387, #303D46);
+  background: linear-gradient(-90deg,#889B9F, #43525D);
 }
 
 h1, h2, h3, h4, h5 {
@@ -38,21 +38,6 @@ ul {
   padding: 0;
   margin: 0;
 }
-
-/* to make a sticky footer*/
-/*.wrapper {
-  min-height: 100%;
-  /*margin-bottom: -70px; /* equal to footer height */
-/*}
-*/
-
-/*
-.wrapper:after {
-  content: "";
-  display: block;
-  height: 70px;
-}
-*/
 
 /*
  *
@@ -85,23 +70,6 @@ ul {
 }
 
 /*
-.portrait {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  display: block;
-  margin: auto;
-  border: 2px solid hsl(0, 0%, 40%);
-  padding: 2px;
-  background: hsl(0, 0%, 20%);
-  box-shadow: 
-  0 0 0 2px hsl(0, 0%, 60%),
-  0 0 0 4px hsl(0, 0%, 80%), 0 0 0 6px hsl(0, 0%, 90%);
-}
-*/
-
-
-/*
  *
  * Top Level Navigation
  *
@@ -125,7 +93,7 @@ ul {
   box-sizing: border-box;
   display: inline-block;
   text-align: center;
-  line-height: 1.2em;
+  line-height: 1.4em;
   padding: 0;
 }
 
@@ -209,36 +177,10 @@ main {
   line-height: 1.2em;
 }
 
-span {
+.title span {
   display: block;
+  padding: 0 0 1em 0;
 } 
-
-/*
- *
- * My-photo
- *
- */
-
-.my-photo {
-  padding: 1em;
-  width: 100%;
-  align-items: center;
-  margin: auto;
-}
-
-.portrait {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  display: block;
-  margin: auto;
-  border: 2px solid hsl(0, 0%, 40%); /*multiple borders effect*/
-  padding: 2px;
-  background: hsl(0, 0%, 20%);
-  box-shadow: 
-  0 0 0 2px hsl(0, 0%, 60%),
-  0 0 0 4px hsl(0, 0%, 80%), 0 0 0 6px hsl(0, 0%, 90%);
-}
 
 /*
  *
@@ -445,10 +387,15 @@ footer li {
   margin: 0 1em;
 }
 
+footer a i{
+  color:#fff;
+  font-size: 1.5em;
+}
+
 footer a {
   text-decoration: none;
   color: #fff;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 footer a:hover {
